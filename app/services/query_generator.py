@@ -2,7 +2,7 @@ import openai
 from config.settings import OPENAI_API_KEY
 
 openai.api_key = OPENAI_API_KEY
-
+print('OPENAI_API_KEY', OPENAI_API_KEY)
 def generate_sql_query(prompt, schema, matched_tables, matched_columns, actions):
     schema_description = "\n".join(
         f"Table: {table}, Columns: {', '.join(columns)}"
@@ -27,4 +27,6 @@ def generate_sql_query(prompt, schema, matched_tables, matched_columns, actions)
             {"role": "user", "content": user_message},
         ]
     )
-    return response['choices'][0]['message']['content'].strip()
+    query = response['choices'][0]['message']['content'].strip()
+    query = query.replace("```sql", "").replace("```", "").strip()
+    return query
