@@ -3,3 +3,5 @@ pyodbc
 matplotlib
 spacy
 streamlit
+python-dotenv
+requests

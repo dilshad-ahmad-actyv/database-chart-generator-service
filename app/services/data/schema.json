@@ -1,0 +1,1933 @@
+[
+  {
+    "table": "EpiUserRPAUserGroupMap",
+    "columns": ["UserId", "RPAUserGroupId"],
+    "data": [
+      {
+        "UserId": "F68AC6D3-E021-4C55-9C1D-08DBA88FE2A2",
+        "RPAUserGroupId": "FDB37002-2340-4E60-B9E7-1FF843DBB457"
+      }
+    ]
+  },
+  {
+    "table": "EpiUsers",
+    "columns": [
+      "Id",
+      "LoginUserName",
+      "FirstName",
+      "LastName",
+      "Email",
+      "Designation",
+      "DateCreated",
+      "LastModified",
+      "BirthDate",
+      "Department",
+      "TotalExperience",
+      "TimeInCurrentRole",
+      "WorkShift",
+      "Location",
+      "Latitude",
+      "Longitude",
+      "City",
+      "State",
+      "Country",
+      "Region",
+      "IsTrained",
+      "IsDeleted",
+      "IsDisabled",
+      "AllowMobile",
+      "AllowClient"
+    ],
+    "data": [
+      {
+        "Id": "06B896EB-A456-4D97-9C1C-08DBA88FE2A2",
+        "LoginUserName": "mandy",
+        "FirstName": "Mandanna",
+        "LastName": "OM",
+        "Email": "ganesh.sb05@gmail.com",
+        "Designation": "",
+        "BirthDate": "2023-08-29 12:58:08.117000",
+        "Department": "Management",
+        "TotalExperience": 0,
+        "TimeInCurrentRole": 0,
+        "WorkShift": "General",
+        "Location": "",
+        "Latitude": 0,
+        "Longitude": 0,
+        "City": "",
+        "State": "",
+        "Country": "",
+        "Region": "",
+        "IsTrained": false,
+        "IsDeleted": false,
+        "IsDisabled": false,
+        "AllowMobile": true,
+        "AllowClient": true
+      }
+    ]
+  },
+  {
+    "table": "GenieBots",
+    "columns": [
+      "Id",
+      "Name",
+      "Description",
+      "MachineId",
+      "UserId",
+      "LastHeartBeat",
+      "Health",
+      "IsDeleted",
+      "CreatedDate",
+      "LastModifiedDate",
+      "BotConnectionId"
+    ],
+    "data": [
+      {
+        "Id": "0FCF6D09-C183-4F1C-B082-F82E6E2A857E",
+        "Name": "hithesh13_EPNCL120",
+        "Description": null,
+        "MachineId": "CF192F84-2DFF-4E8B-A8B0-44C7AFEACFC5",
+        "UserId": "400B365B-2B7E-448C-9ECF-08DBAEC57B4B",
+        "LastHeartBeat": "2023-09-06 13:52:27.464945",
+        "Health": "Disconnected",
+        "IsDeleted": false,
+        "CreatedDate": "0001-01-01 00:00:00",
+        "LastModifiedDate": "0001-01-01 00:00:00",
+        "BotConnectionId": ""
+      }
+    ]
+  },
+  {
+    "table": "GenieJobExecutionDetails",
+    "columns": [
+      "Id",
+      "GenieJobId",
+      "StartTime",
+      "EndTime",
+      "Status",
+      "GenieScriptId",
+      "MachineId",
+      "UserId",
+      "ExecutionMode",
+      "LoggedInUserName",
+      "LoggedInMachineName",
+      "ProjectType",
+      "ErrorDetails",
+      "ErrorImageString"
+    ],
+    "data": [
+      {
+        "Id": "DF86B165-831C-4537-A053-BFC9E387BE92",
+        "GenieJobId": "9A9152E3-F7C3-4E14-9BF3-6CFB7B872705",
+        "StartTime": "2023-09-06 10:45:34.498434",
+        "EndTime": "2023-09-06 10:45:42.834077",
+        "Status": "ProjectExecutionError",
+        "GenieScriptId": "2BB14AB8-287B-4707-A84C-8C28867C14CD",
+        "MachineId": "CF192F84-2DFF-4E8B-A8B0-44C7AFEACFC5",
+        "UserId": "400B365B-2B7E-448C-9ECF-08DBAEC57B4B",
+        "ExecutionMode": null,
+        "LoggedInUserName": "hithesh13",
+        "LoggedInMachineName": "EPNCL120",
+        "ProjectType": null,
+        "ErrorDetails": "Error:",
+        "ErrorImageString": "string"
+      }
+    ]
+  },
+  {
+    "table": "GenieJobs",
+    "columns": [
+      "Id",
+      "Name",
+      "Description",
+      "GenieScriptId",
+      "CreatedDate",
+      "LastModifiedDate",
+      "IsDeleted",
+      "MachineGroupId",
+      "TargetExecution",
+      "RPAUserGroupId",
+      "JobType",
+      "IsContinuous",
+      "NumberOfTimes",
+      "Status",
+      "ProcessTaskId",
+      "ScheduleName",
+      "ScheduleType",
+      "ScheduleInfo",
+      "CronExpression"
+    ],
+    "data": [
+      {
+        "Id": "9A9152E3-F7C3-4E14-9BF3-6CFB7B872705",
+        "Name": "PreSales",
+        "Description": null,
+        "GenieScriptId": "2BB14AB8-287B-4707-A84C-8C28867C14CD",
+        "CreatedDate": "2023-09-06 10:01:43.820133",
+        "LastModifiedDate": "2023-09-06 10:02:28.948072",
+        "IsDeleted": false,
+        "MachineGroupId": null,
+        "TargetExecution": "user",
+        "RPAUserGroupId": "FDB37002-2340-4E60-B9E7-1FF843DBB457",
+        "JobType": "manual",
+        "IsContinuous": false,
+        "NumberOfTimes": 1,
+        "Status": "Pause",
+        "ProcessTaskId": "3EE3E719-AB78-4189-B41E-A461F014B04E",
+        "ScheduleName": null,
+        "ScheduleType": "daily",
+        "ScheduleInfo": null,
+        "CronExpression": null
+      }
+    ]
+  },
+  {
+    "table": "GenieJobSchedules",
+    "columns": [
+      "ScheduleName",
+      "ScheduleType",
+      "ScheduleInfo",
+      "GenieJobId",
+      "CronExpression"
+    ],
+    "data": []
+  },
+  {
+    "table": "GenieScripts",
+    "columns": [
+      "Id",
+      "Name",
+      "Description",
+      "FileName",
+      "Version",
+      "RelativeFilePath",
+      "CreatedDate",
+      "LastModifiedDate",
+      "IsDeleted",
+      "ProcessTaskId"
+    ],
+    "data": [
+      {
+        "Id": "2BB14AB8-287B-4707-A84C-8C28867C14CD",
+        "Name": "BotTest.epp",
+        "Description": null,
+        "FileName": "BotTest.epz",
+        "Version": "1.0.0",
+        "RelativeFilePath": null,
+        "CreatedDate": "2023-09-06 09:58:07.781421",
+        "LastModifiedDate": "0001-01-01 00:00:00",
+        "IsDeleted": false,
+        "ProcessTaskId": "3EE3E719-AB78-4189-B41E-A461F014B04E"
+      }
+    ]
+  },
+  {
+    "table": "GpsLog",
+    "columns": [
+      "Sequence",
+      "GpsXml",
+      "Machine",
+      "UserId",
+      "TapName",
+      "ScreenName",
+      "ControlName",
+      "ControlType",
+      "EventName",
+      "ControlId",
+      "ControlData",
+      "SPKey",
+      "ParentName",
+      "ParentType",
+      "ControlClientRect",
+      "ControlScreenRect",
+      "LabelRect",
+      "ControlImage",
+      "ScreenImage",
+      "CursorPos",
+      "ClickPos",
+      "Timestamp",
+      "UniqueStepHashcode",
+      "WindowsProcessId",
+      "MainWindowHandle",
+      "Sentence",
+      "HashCode",
+      "FirstEventInSession",
+      "LastEventInSession",
+      "HideInGraph",
+      "BlockId",
+      "SubSessionId",
+      "AliasName",
+      "Guid",
+      "GpsFile",
+      "ExtraInfo",
+      "TabName",
+      "GridSelectedRow",
+      "GridSelectedColumn",
+      "FileRepositoryGUID",
+      "NumberOfDatapoints",
+      "NumberOfPreRequisites",
+      "NumberOfValidations",
+      "NumberOfExceptions",
+      "IsNavigationStep",
+      "IsInputStep",
+      "IsStructuredData",
+      "ContainerId",
+      "CanAutomatable",
+      "AutomatibilityRate",
+      "IsStrayStep",
+      "StepDuration",
+      "AdaptorID",
+      "StepId",
+      "VPEDXml",
+      "ApplicationURL"
+    ],
+    "data": [
+      {
+        "Sequence": 1,
+        "GpsXml": "",
+        "Machine": "EPNCL120",
+        "UserId": "0206e834-412a-4ac4-9c27-08dba88fe2a2",
+        "TapName": "chrome.exe",
+        "ScreenName": "Home | Salesforce - [ORGANIZATION] Chrome",
+        "ControlName": "Home | Salesforce - Google Chrome",
+        "ControlType": "client",
+        "EventName": "windowactivate",
+        "ControlId": "BLANK",
+        "ControlData": "BLANK",
+        "SPKey": "",
+        "ParentName": null,
+        "ParentType": null,
+        "ControlClientRect": null,
+        "ControlScreenRect": "-8,-8,1362,724",
+        "LabelRect": null,
+        "ControlImage": null,
+        "ScreenImage": "ContactCreation_TW_513_2.PNG",
+        "CursorPos": null,
+        "ClickPos": null,
+        "Timestamp": "2023-08-31 12:02:50.703000",
+        "UniqueStepHashcode": "7_7~PKltazCQiuA/spEZ173fBw==",
+        "WindowsProcessId": null,
+        "MainWindowHandle": "1234",
+        "Sentence": "Home | Salesforce - Google Chrome screen is displayed.",
+        "HashCode": "7_7~PKltazCQiuA/spEZ173fBw==",
+        "FirstEventInSession": true,
+        "LastEventInSession": false,
+        "HideInGraph": null,
+        "BlockId": null,
+        "SubSessionId": null,
+        "AliasName": "Home | Salesforce - Google Chrome",
+        "Guid": "3d7ed100-1318-43a9-8a72-69e116bcb8f8",
+        "GpsFile": "ContactCreation.gps",
+        "ExtraInfo": "",
+        "TabName": "BLANK",
+        "GridSelectedRow": -1,
+        "GridSelectedColumn": -1,
+        "FileRepositoryGUID": "ff5a1417-3437-4802-bc59-0cef3929dece",
+        "NumberOfDatapoints": 0,
+        "NumberOfPreRequisites": 0,
+        "NumberOfValidations": 0,
+        "NumberOfExceptions": 0,
+        "IsNavigationStep": false,
+        "IsInputStep": false,
+        "IsStructuredData": true,
+        "ContainerId": "5~ppHDGaoqI+RipyupluKCVQ==",
+        "CanAutomatable": true,
+        "AutomatibilityRate": 100.0,
+        "IsStrayStep": 2,
+        "StepDuration": 35.421,
+        "AdaptorID": 0,
+        "StepId": 1,
+        "VPEDXml": "<vpeds isautovpadded=\"0\" />",
+        "ApplicationURL": null
+      }
+    ]
+  },
+  {
+    "table": "GraphFileMap",
+    "columns": ["GraphId", "FileId"],
+    "data": [
+      {
+        "GraphId": "1d3157b0-569d-41a9-8aa7-9fa6ecb2e850",
+        "FileId": "6efd144f-662b-4243-8a3c-5ee1d16be79a"
+      }
+    ]
+  },
+  {
+    "table": "GwzRawSteps",
+    "columns": ["GWZFileGUID", "StepIndex", "StepXml"],
+    "data": []
+  },
+  {
+    "table": "JobMachineApplicationVaultMap",
+    "columns": [
+      "GenieJobId",
+      "MachineGroupId",
+      "MachineId",
+      "ApplicationVaultId"
+    ],
+    "data": []
+  },
+  {
+    "table": "JobMachineOSVaultMap",
+    "columns": ["GenieJobId", "MachineGroupId", "MachineId", "OSVaultId"],
+    "data": []
+  },
+  {
+    "table": "JobUserApplicationVaultMap",
+    "columns": ["GenieJobId", "RPAUserGroupId", "UserId", "ApplicationVaultId"],
+    "data": [
+      {
+        "GenieJobId": "9A9152E3-F7C3-4E14-9BF3-6CFB7B872705",
+        "RPAUserGroupId": "FDB37002-2340-4E60-B9E7-1FF843DBB457",
+        "UserId": "F68AC6D3-E021-4C55-9C1D-08DBA88FE2A2",
+        "ApplicationVaultId": "41DA5722-7F42-405D-9791-EF05E0E99710"
+      }
+    ]
+  },
+  {
+    "table": "JobUserOSVaultMap",
+    "columns": ["GenieJobId", "RPAUserGroupId", "UserId", "OSVaultId"],
+    "data": [
+      {
+        "GenieJobId": "9A9152E3-F7C3-4E14-9BF3-6CFB7B872705",
+        "RPAUserGroupId": "FDB37002-2340-4E60-B9E7-1FF843DBB457",
+        "UserId": "F68AC6D3-E021-4C55-9C1D-08DBA88FE2A2",
+        "OSVaultId": "1068A5EA-E4B4-4EE0-83B5-CB440E1F4C29"
+      }
+    ]
+  },
+  {
+    "table": "MachineGroupMap",
+    "columns": ["MachineId", "MachineGroupId"],
+    "data": []
+  },
+  {
+    "table": "MachineGroups",
+    "columns": ["Id", "Name", "Description", "IsDeleted"],
+    "data": []
+  },
+  {
+    "table": "Machines",
+    "columns": [
+      "Id",
+      "Name",
+      "LastHeartBeat",
+      "Health",
+      "CreatedDate",
+      "LastModifiedDate",
+      "IsDeleted"
+    ],
+    "data": [
+      {
+        "Id": "B8E69E4B-E131-4614-9F55-10ACF0A722CE",
+        "Name": "EPNCL010",
+        "LastHeartBeat": "0001-01-01 00:00:00",
+        "Health": null,
+        "CreatedDate": "2024-08-30 12:05:48.350192",
+        "LastModifiedDate": "0001-01-01 00:00:00",
+        "IsDeleted": false
+      }
+    ]
+  },
+  {
+    "table": "ManualActivities",
+    "columns": [
+      "Id",
+      "Name",
+      "EFMFormName",
+      "FormContent",
+      "ProcessTaskId",
+      "CreatedDate",
+      "LastModifiedDate",
+      "IsDeleted",
+      "Description",
+      "ActivityMaxTime"
+    ],
+    "data": [
+      {
+        "Id": "E6F1DCC5-AB2D-4883-BE15-6CDF43B21209",
+        "Name": "Legal Documents",
+        "EFMFormName": "default.efm",
+        "FormContent": "{\"schema\":{\"type\":\"object\",\"properties\":{\"description\":{\"type\":\"string\"}}},\"options\":{\"fields\":{\"description\":{\"type\":\"textarea\",\"label\":\"Description\"}}}}",
+        "ProcessTaskId": "78C8F7B2-3BB0-40A8-8C63-0BD811FA1A55",
+        "CreatedDate": "2023-09-06 12:43:31.360438",
+        "LastModifiedDate": "2023-09-06 12:43:31.360438",
+        "IsDeleted": false,
+        "Description": null,
+        "ActivityMaxTime": 30
+      }
+    ]
+  },
+  {
+    "table": "ManualActivityEvents",
+    "columns": [
+      "Id",
+      "ManualActivityId",
+      "UserId",
+      "Data",
+      "StartTime",
+      "EndTime",
+      "SyncedAfterDelete"
+    ],
+    "data": [
+      {
+        "Id": "6BC04D12-6357-4BB4-98B3-1B5E9CFD1569",
+        "ManualActivityId": "7CB9FD4E-D42C-4A6D-9D04-A3C6D9B05D8E",
+        "UserId": "4DFEC1A7-0391-4311-9C21-08DBA88FE2A2",
+        "Data": "{}",
+        "StartTime": "2023-09-06 18:29:36.340000",
+        "EndTime": "2023-09-06 19:33:45.593000",
+        "SyncedAfterDelete": false
+      }
+    ]
+  },
+  {
+    "table": "OSVaults",
+    "columns": [
+      "Id",
+      "VaultKey",
+      "CreatedDate",
+      "LastModifiedDate",
+      "Description",
+      "UserName",
+      "ProjectId"
+    ],
+    "data": [
+      {
+        "Id": "1068A5EA-E4B4-4EE0-83B5-CB440E1F4C29",
+        "VaultKey": "pCf/K1RqY20H8ALwCSJtmA==",
+        "CreatedDate": "2023-09-06 09:56:24.891411",
+        "LastModifiedDate": "2023-09-06 09:56:24.891411",
+        "Description": null,
+        "UserName": "john",
+        "ProjectId": "27986369-03E1-4FBA-1E74-08DBA88F94F7"
+      }
+    ]
+  },
+  {
+    "table": "PasswordHistorys",
+    "columns": ["PasswordHash", "CreatedDate", "UserId"],
+    "data": [
+      {
+        "PasswordHash": "AQAAAAIAAYagAAAAEAPyO6e2MBy0ED1TbsbMKfXFbGff6QwbgGKu3LVTlpy8wDbfr09mY90iMrjyY2gxxg==",
+        "UserId": "cf490a36-b625-4045-aeea-e189d5474ae4"
+      }
+    ]
+  },
+  {
+    "table": "PDCache",
+    "columns": [
+      "Id",
+      "Value",
+      "ExpiresAtTime",
+      "SlidingExpirationInSeconds",
+      "AbsoluteExpiration"
+    ],
+    "data": []
+  },
+  {
+    "table": "PIUserGroupTask",
+    "columns": ["PIUserGroupId", "ProcessTaskId"],
+    "data": [
+      {
+        "PIUserGroupId": "9007A839-DA4C-4C70-B18A-151A8029A005",
+        "ProcessTaskId": "788F0AAB-9A86-45A5-B834-CB83EBFAF818"
+      }
+    ]
+  },
+  {
+    "table": "ProcessDef",
+    "columns": ["ID", "ProcessName", "KeyStepSeq", "AbortNextStart"],
+    "data": []
+  },
+  {
+    "table": "ProcessDefDetails",
+    "columns": [
+      "ID",
+      "ProcessTaskId",
+      "StepType",
+      "HashCode",
+      "Sentence",
+      "StepXml",
+      "IsAltStep",
+      "AltHashCode",
+      "AltSentence",
+      "AltStepXml",
+      "IsMandatory",
+      "Seq"
+    ],
+    "data": [
+      {
+        "ID": 10,
+        "ProcessTaskId": "1B2B5C0E-858C-4590-A8EA-BAFF67478E8A",
+        "StepType": 1,
+        "HashCode": "7~hsXr3OpwWu0YxTnW0MyedQ==",
+        "Sentence": "Click in *Account Name box.",
+        "StepXml": "",
+        "IsAltStep": 0,
+        "AltHashCode": "",
+        "AltSentence": "",
+        "AltStepXml": "",
+        "IsMandatory": 0,
+        "Seq": 1
+      }
+    ]
+  },
+  {
+    "table": "MessageQueueStatus",
+    "columns": [
+      "CorrelationId",
+      "IsMessageRetrieved",
+      "IsProcessingErrored",
+      "CreatedDate",
+      "RetrievedDate"
+    ],
+    "data": [
+      {
+        "CorrelationId": "F6F8AAA9-D768-4EC7-9DBB-220B9A440AFB",
+        "IsMessageRetrieved": true,
+        "IsProcessingErrored": false,
+        "CreatedDate": "0001-01-01 00:00:00",
+        "RetrievedDate": null
+      }
+    ]
+  },
+  {
+    "table": "Processes",
+    "columns": [
+      "Id",
+      "Name",
+      "ProjectId",
+      "CreatedDate",
+      "LastModifiedDate",
+      "IsDeleted",
+      "ParentId",
+      "SlNo"
+    ],
+    "data": [
+      {
+        "Id": "0FEC4934-4D27-4580-BA21-00571326C391",
+        "Name": "+response.write({0}*{1})+",
+        "ProjectId": "193EC082-860A-42D6-7095-08DBAD27C20A",
+        "CreatedDate": "2023-09-05 09:30:09.754890",
+        "LastModifiedDate": "0001-01-01 00:00:00",
+        "IsDeleted": false,
+        "ParentId": null,
+        "SlNo": 0
+      }
+    ]
+  },
+  {
+    "table": "ProcessGraphData",
+    "columns": [
+      "GraphId",
+      "GraphName",
+      "Description",
+      "DateTime",
+      "GraphData",
+      "Complexity",
+      "ProcessTaskId",
+      "IsProcessed",
+      "IsModified",
+      "Settings",
+      "IsDeleted",
+      "GPSInitialized",
+      "GPSProcessing",
+      "GPSProcessed",
+      "LastModified",
+      "Error",
+      "IsErrored",
+      "AutomatabilityRate"
+    ],
+    "data": [
+      {
+        "GraphId": "C6DDFCA1-833D-4E15-B289-94AEF8EEC915",
+        "GraphName": "invoice test",
+        "Description": "",
+        "DateTime": "2023-10-03 21:14:24",
+        "GraphData": "",
+        "Complexity": "Complex",
+        "ProcessTaskId": "b44c5d3b-fbdb-483b-a495-dd2218cb6b40",
+        "IsProcessed": true,
+        "IsModified": false,
+        "Settings": "",
+        "IsDeleted": false,
+        "GPSInitialized": false,
+        "GPSProcessing": false,
+        "GPSProcessed": false,
+        "LastModified": "2023-10-03 21:14:24",
+        "Error": null,
+        "IsErrored": false,
+        "AutomatabilityRate": 67.58000183105469
+      }
+    ]
+  },
+  {
+    "table": "ProcessImprovementUserGroups",
+    "columns": [
+      "PIUserGroupId",
+      "Name",
+      "ProjectId",
+      "Description",
+      "DateCreated",
+      "LastModified",
+      "IsDeleted"
+    ],
+    "data": [
+      {
+        "PIUserGroupId": "9007A839-DA4C-4C70-B18A-151A8029A005",
+        "Name": "IT",
+        "ProjectId": "27986369-03E1-4FBA-1E74-08DBA88F94F7",
+        "Description": null,
+        "IsDeleted": false
+      }
+    ]
+  },
+  {
+    "table": "AnalyzerUserPerformanceScreen",
+    "columns": [
+      "UserId",
+      "GWZFile",
+      "DateTime",
+      "ScreenName",
+      "Duration",
+      "TotalSteps",
+      "TapName",
+      "Domain"
+    ],
+    "data": [
+      {
+        "UserId": "c058d919-87a5-4724-7ece-08dbb02b805f",
+        "GWZFile": "b398747a-c4c2-4e9c-985a-bdc850325fd6",
+        "DateTime": "2024-08-13 00:00:00",
+        "ScreenName": "AdminBoard - Process Discovery Server",
+        "Duration": 29.389,
+        "TotalSteps": 1,
+        "TapName": "chrome.exe",
+        "Domain": ""
+      }
+    ]
+  },
+  {
+    "table": "ProcessInstanceAppPerformance",
+    "columns": ["ProcessFileId", "TapName", "Duration", "TotalSteps"],
+    "data": [
+      {
+        "ProcessFileId": "037D0469-C05A-48AC-996D-722D0BE1C2AA",
+        "TapName": "chrome.exe",
+        "Duration": 2.4290000000000003,
+        "TotalSteps": 2
+      }
+    ]
+  },
+  {
+    "table": "ProcessInstances",
+    "columns": [
+      "SeqNum",
+      "UserId",
+      "ProcessName",
+      "StartStepDate",
+      "ProcessFileName",
+      "ProcessFileId",
+      "ProcessTaskId",
+      "Complete",
+      "TotalKeySteps",
+      "KeySteps",
+      "Duration",
+      "TotalSteps",
+      "AppProcessed"
+    ],
+    "data": [
+      {
+        "SeqNum": 1,
+        "UserId": "0206E834-412A-4AC4-9C27-08DBA88FE2A2",
+        "ProcessName": "Contact Creation",
+        "StartStepDate": "2023-08-31 16:22:28",
+        "ProcessFileName": "Contact Creation_Daniel_1.gps",
+        "ProcessFileId": "0AB30091-7E6D-4FF3-99E6-BDE5238A2783",
+        "ProcessTaskId": "3EE3E719-AB78-4189-B41E-A461F014B04E",
+        "Complete": 1,
+        "TotalKeySteps": 1,
+        "KeySteps": 1,
+        "Duration": 81.259,
+        "TotalSteps": 27,
+        "AppProcessed": true
+      }
+    ]
+  },
+  {
+    "table": "ProcessDiscoveryMigrationHistory",
+    "columns": ["MigrationId", "Version", "MigrationDateTime"],
+    "data": [
+      {
+        "MigrationId": "InitialState",
+        "Version": "11.2.411",
+        "MigrationDateTime": "2023-08-29 12:56:07.970000"
+      }
+    ]
+  },
+  {
+    "table": "ProcessMetrices",
+    "columns": [
+      "Id",
+      "GraphGUID",
+      "FileRepositoryGUID",
+      "ProcessTask",
+      "ProcessTaskId",
+      "UserId",
+      "Designation",
+      "Age",
+      "Experience",
+      "TimeInCurrentRole",
+      "Machine",
+      "Department",
+      "City",
+      "Location",
+      "State",
+      "Country",
+      "Region",
+      "Latitude",
+      "Longitude",
+      "Timestamp",
+      "StartTime",
+      "EndTime",
+      "Hourofday",
+      "Dayofweek",
+      "Month",
+      "Quarter",
+      "Year",
+      "TimeDuration",
+      "Activetime",
+      "Thinktime",
+      "Stepcount",
+      "TotalClick",
+      "TotalTypeEvents",
+      "Appcount",
+      "AppSwitchCount",
+      "Unitprocess",
+      "Variation",
+      "Complexity",
+      "Instanceid",
+      "Workshift",
+      "Istrained",
+      "AutomatabilityRate",
+      "IsProcessed",
+      "IsUpdated",
+      "AHT",
+      "Errors",
+      "TimeToCompetancy",
+      "BotCreationTime",
+      "TotalVariants",
+      "ProcessTime",
+      "ProcessIdleTime",
+      "CaptureDuration"
+    ],
+    "data": [
+      {
+        "Id": "37C0D5E7-8F16-4C50-AD5F-DAF72BCCC0A6",
+        "GraphGUID": "1af88da1-88ad-48fe-b743-a10a6ad9a967",
+        "FileRepositoryGUID": "430b2cb3-8726-44ad-8da2-1ea0b6dc16cc",
+        "ProcessTask": "Amazon",
+        "ProcessTaskId": "be2297f8-be66-474a-9258-72c6eabf7f25",
+        "UserId": "b836c932-fd7a-4f19-3eff-08dc20b4d9b8",
+        "Designation": "",
+        "Age": 0,
+        "Experience": 0,
+        "TimeInCurrentRole": 0,
+        "Machine": "EPNCL044",
+        "Department": "Management ",
+        "City": "",
+        "Location": "",
+        "State": "",
+        "Country": "",
+        "Region": "",
+        "Latitude": 0.0,
+        "Longitude": 0.0,
+        "Timestamp": "2024-08-13 12:54:33.157000",
+        "StartTime": "2021-07-13 14:17:16.770000",
+        "EndTime": "2021-07-13 14:11:51.300000",
+        "Hourofday": 14,
+        "Dayofweek": "Tuesday",
+        "Month": 7,
+        "Quarter": 2,
+        "Year": 2021,
+        "TimeDuration": 272.0,
+        "Activetime": 310.0,
+        "Thinktime": 15.778,
+        "Stepcount": 17,
+        "TotalClick": 13,
+        "TotalTypeEvents": 4,
+        "Appcount": 1,
+        "AppSwitchCount": 0,
+        "Unitprocess": "Amazon",
+        "Variation": "Amazon Payment UPI",
+        "Complexity": "very small -",
+        "Instanceid": "InstanceId2",
+        "Workshift": "General",
+        "Istrained": false,
+        "AutomatabilityRate": 72.21,
+        "IsProcessed": false,
+        "IsUpdated": true,
+        "AHT": "173-211",
+        "Errors": "13.5-16.5",
+        "TimeToCompetancy": "2.5-3.5",
+        "BotCreationTime": "3-5",
+        "TotalVariants": null,
+        "ProcessTime": 100.428,
+        "ProcessIdleTime": 155.913,
+        "CaptureDuration": 325.47
+      }
+    ]
+  },
+  {
+    "table": "ProcessTasks",
+    "columns": [
+      "ProcessTaskId",
+      "Name",
+      "TaskType",
+      "ProjectId",
+      "ProcessId",
+      "CreatedDate",
+      "LastModifiedDate",
+      "IsDeleted",
+      "SlNo",
+      "AbortNextStart",
+      "SMEAHT",
+      "IsProcessing",
+      "IsProductionReady",
+      "OperationId"
+    ],
+    "data": [
+      {
+        "ProcessTaskId": "B8D3F4B9-974D-47D8-9E5A-01B9FA6672C4",
+        "Name": "case when cast(pg_sleep(15) as varchar) > '' then 0 else 1 end",
+        "TaskType": "ManualTask",
+        "ProjectId": "193EC082-860A-42D6-7095-08DBAD27C20A",
+        "ProcessId": "E5CC4F19-8902-4DBB-A696-B31BEB073D71",
+        "CreatedDate": "2023-09-06 13:57:08.746769",
+        "LastModifiedDate": "0001-01-01 00:00:00",
+        "IsDeleted": false,
+        "SlNo": 0,
+        "AbortNextStart": 1,
+        "SMEAHT": 0.0,
+        "IsProcessing": false,
+        "IsProductionReady": false,
+        "OperationId": null
+      }
+    ]
+  },
+  {
+    "table": "__EFMigrationsHistory",
+    "columns": ["MigrationId", "ProductVersion"],
+    "data": []
+  },
+  {
+    "table": "__ProcessDiscoveryMigrationHistory",
+    "columns": ["MigrationId", "ProductVersion"],
+    "data": []
+  },
+  {
+    "table": "RCCabbedGWZFiles",
+    "columns": [
+      "CabFileID",
+      "CabFileName",
+      "RelativePath",
+      "DateTime",
+      "UserId",
+      "MachineName",
+      "IsProcessed",
+      "IsDeleted",
+      "IsProcessing",
+      "IsErrored"
+    ],
+    "data": [
+      {
+        "CabFileID": "000d710f-ad9a-4f8d-bc8e-89478c2984a2",
+        "CabFileName": "hithesh13_EPIANCE_23-9-27_5-43-15_214.cab",
+        "RelativePath": "Wednesday, September 27, 2023\\lily",
+        "DateTime": "2023-09-27 09:03:06.120000",
+        "UserId": "c78417de-fe1c-4008-9c2b-08dba88fe2a2",
+        "MachineName": "EPNCD044",
+        "IsProcessed": true,
+        "IsDeleted": false,
+        "IsProcessing": false,
+        "IsErrored": false
+      }
+    ]
+  },
+  {
+    "table": "AnalyzerProcessDetails",
+    "columns": [
+      "ID",
+      "Project",
+      "GWZFile",
+      "User",
+      "DateTime",
+      "Application",
+      "StepSeq",
+      "Description",
+      "Hashcode",
+      "ProcessTime",
+      "ThinkTime",
+      "Discovered",
+      "ProcessName",
+      "KeyStep",
+      "InstanceNumber"
+    ],
+    "data": []
+  },
+  {
+    "table": "AnalyzerUserPerformance",
+    "columns": [
+      "UserId",
+      "GWZFile",
+      "DateTime",
+      "Application",
+      "Duration",
+      "TotalSteps",
+      "Type",
+      "TapName",
+      "IdleDuration",
+      "ThinkDuration",
+      "ActionDuration"
+    ],
+    "data": [
+      {
+        "UserId": "BA81088C-E9C3-4B24-9C22-08DBA88FE2A2",
+        "GWZFile": "d58beace-a420-4650-a773-5bdece5a8890",
+        "DateTime": "2023-09-20 00:00:00",
+        "Application": "http://epiance-app01.epiplex500.co.in/",
+        "Duration": 27.942,
+        "TotalSteps": 1,
+        "Type": "Non-Productive",
+        "TapName": "http://epiance-app01.epiplex500.co.in/",
+        "IdleDuration": 0.0,
+        "ThinkDuration": 0.0,
+        "ActionDuration": 27.942
+      }
+    ]
+  },
+  {
+    "table": "RCCaptureEvents",
+    "columns": [
+      "Id",
+      "UserId",
+      "Machine",
+      "GWZFileId",
+      "StepId",
+      "TapName",
+      "ScreenName",
+      "ControlName",
+      "ControlType",
+      "ControlData",
+      "ControlRegion",
+      "EventName",
+      "SPKey",
+      "ParentControlName",
+      "ParentControlType",
+      "TimeStamp",
+      "TabName",
+      "Hashcode",
+      "Sentence",
+      "StepGuid",
+      "ChannelId",
+      "IsProcessed",
+      "TacitDuration",
+      "ThinkDuration",
+      "IdleDuration",
+      "StepDuration",
+      "Participated",
+      "URL",
+      "Domain",
+      "CaptureUsername",
+      "ToBeReviewed",
+      "ReviewInfo",
+      "IsStrayStep",
+      "DocArea",
+      "XPath"
+    ],
+    "data": [
+      {
+        "Id": 1,
+        "UserId": "01c25714-7785-4e2d-9c37-08dba88fe2a2",
+        "Machine": "EPNCL023",
+        "GWZFileId": "4387a829-b741-407b-b867-402b55d38c4b",
+        "StepId": 1,
+        "TapName": "chrome.exe",
+        "ScreenName": "Product Request - [ORGANIZATION] Chrome",
+        "ControlName": "Product Request - Google Chrome",
+        "ControlType": "client",
+        "ControlData": "",
+        "ControlRegion": "0,77,1366,728",
+        "EventName": "WindowActivate",
+        "SPKey": "",
+        "ParentControlName": "",
+        "ParentControlType": "",
+        "TimeStamp": "2023-08-29 15:05:31.803000",
+        "TabName": "",
+        "Hashcode": "7_7~ql/wShsyWNotFxRje0jxQQ==",
+        "Sentence": "Product Request - Google Chrome screen is displayed.",
+        "StepGuid": "72884f10-0f75-47e0-a147-822560c4961b",
+        "ChannelId": 0,
+        "IsProcessed": 0,
+        "TacitDuration": 0.0,
+        "ThinkDuration": 0.0,
+        "IdleDuration": 0.0,
+        "StepDuration": 0.0,
+        "Participated": 0,
+        "URL": "epiplex500.com/qa/LicenseRequest.htm",
+        "Domain": "epiplex500.com",
+        "CaptureUsername": "hithesh13",
+        "ToBeReviewed": 0,
+        "ReviewInfo": "",
+        "IsStrayStep": 2,
+        "DocArea": 1,
+        "XPath": ""
+      }
+    ]
+  },
+  {
+    "table": "AnalyzerUserPerformanceDomain",
+    "columns": [
+      "UserId",
+      "GWZFile",
+      "DateTime",
+      "Domain",
+      "Duration",
+      "TotalSteps",
+      "Type",
+      "TapName"
+    ],
+    "data": [
+      {
+        "UserId": "ba81088c-e9c3-4b24-9c22-08dba88fe2a2",
+        "GWZFile": "d58beace-a420-4650-a773-5bdece5a8890",
+        "DateTime": "2023-09-20 00:00:00",
+        "Domain": "BrowserInteraction",
+        "Duration": 3.8579999999999997,
+        "TotalSteps": 3,
+        "Type": "Productive",
+        "TapName": "chrome.exe"
+      }
+    ]
+  },
+  {
+    "table": "RCCDTDataInfo",
+    "columns": ["GWZFileGUID", "StepId", "CDTName", "CDTValue"],
+    "data": []
+  },
+  {
+    "table": "ApplicationTypes",
+    "columns": ["Application", "Type", "TapName", "IsBrowser"],
+    "data": [
+      {
+        "Application": "Google Chrome",
+        "Type": "Productive",
+        "TapName": "chrome.exe",
+        "IsBrowser": true
+      }
+    ]
+  },
+  {
+    "table": "RCGWZFiles",
+    "columns": [
+      "GWZFileGUID",
+      "GWZFileName",
+      "RelativePath",
+      "FileIndex",
+      "IsProcessed",
+      "DateTime",
+      "UserId",
+      "CabFileID",
+      "IsErrored",
+      "GWZHeader",
+      "ErrorMessage"
+    ],
+    "data": [
+      {
+        "GWZFileGUID": "0007f17c-4476-412d-b13a-cf53ef09ed83",
+        "GWZFileName": "hithesh13_EPIANCE_23-8-30_10-13-20_37.gps.gwz",
+        "RelativePath": "Wednesday, August 30, 2023\\singh\\e96aa2e3-1ea2-48aa-a176-2ef7ade23602",
+        "FileIndex": 37,
+        "IsProcessed": true,
+        "DateTime": "2023-08-30 11:30:27.830000",
+        "UserId": "a4551a45-1114-4df8-9c3b-08dba88fe2a2",
+        "CabFileID": "e96aa2e3-1ea2-48aa-a176-2ef7ade23602",
+        "IsErrored": false,
+        "GWZHeader": "",
+        "ErrorMessage": null
+      }
+    ]
+  },
+  {
+    "table": "ConfigurationEntity",
+    "columns": ["Key", "Value"],
+    "data": [
+      {
+        "Key": "EnableInternalReports",
+        "Value": "True"
+      }
+    ]
+  },
+  {
+    "table": "RCIdleTimeInfo",
+    "columns": ["GWZFileGUID", "Category", "Tag", "Duration"],
+    "data": [
+      {
+        "GWZFileGUID": "d58beace-a420-4650-a773-5bdece5a8890",
+        "Category": "TacitInfo",
+        "Tag": "",
+        "Duration": 0.0
+      }
+    ]
+  },
+  {
+    "table": "ApplicationVaults",
+    "columns": [
+      "Id",
+      "ApplicationLoginId",
+      "ApplicationLoginKey",
+      "ApplicationName",
+      "CreatedDate",
+      "LastModifiedDate",
+      "Description",
+      "ProjectId"
+    ],
+    "data": [
+      {
+        "Id": "41DA5722-7F42-405D-9791-EF05E0E99710",
+        "ApplicationLoginId": "John",
+        "ApplicationLoginKey": "pCf/K1RqY20H8ALwCSJtmA==",
+        "ApplicationName": "Youtube",
+        "CreatedDate": "2023-09-06 09:56:41.557354",
+        "LastModifiedDate": "2023-09-06 09:56:41.557354",
+        "Description": null,
+        "ProjectId": "27986369-03E1-4FBA-1E74-08DBA88F94F7"
+      }
+    ]
+  },
+  {
+    "table": "RefreshTokens",
+    "columns": ["Id", "UserId", "Issued", "Expires", "Token"],
+    "data": [
+      {
+        "Id": "00128ac8-f9e8-4435-bcce-ae343d491cc1",
+        "UserId": "5ad15a3e-637e-47fa-99f5-030b3984a7e8",
+        "Issued": "2024-01-02 15:29:43.928616",
+        "Expires": "2024-01-02 16:29:43.928597",
+        "Token": "DriEa7Cl/rJiAW/zrKgCiwGqnNynILTCILXjMoHdyVk="
+      }
+    ]
+  },
+  {
+    "table": "AspNetRoleClaims",
+    "columns": ["Id", "RoleId", "ClaimType", "ClaimValue"],
+    "data": [
+      {
+        "Id": 1,
+        "RoleId": "1b839da0-4f11-4f18-9d27-c934c442cbad",
+        "ClaimType": "CanViewAppDashboard",
+        "ClaimValue": "FALSE"
+      }
+    ]
+  },
+  {
+    "table": "BackgroundJobs",
+    "columns": [
+      "JobId",
+      "Name",
+      "ProjectId",
+      "JobType",
+      "ScheduleType",
+      "CronExpression",
+      "JobSettings",
+      "ScheduleInfo",
+      "IsPaused",
+      "CreatedDate",
+      "LastActivatedDate"
+    ],
+    "data": []
+  },
+  {
+    "table": "ResourceGroupPIUserGroupMap",
+    "columns": ["CaptureResourceGroupId", "PIUserGroupId"],
+    "data": []
+  },
+  {
+    "table": "AspNetRoles",
+    "columns": [
+      "Id",
+      "Name",
+      "NormalizedName",
+      "ConcurrencyStamp",
+      "Discriminator",
+      "Description",
+      "DateCreated",
+      "LastModified"
+    ],
+    "data": [
+      {
+        "Id": "1b839da0-4f11-4f18-9d27-c934c442cbad",
+        "Name": "SetupAdmin",
+        "NormalizedName": "SETUPADMIN",
+        "ConcurrencyStamp": "818efb9e-0063-48be-a272-274a0cf6e70a",
+        "Discriminator": "EpiRole",
+        "Description": "SetupAdmin"
+      }
+    ]
+  },
+  {
+    "table": "ResourceGroupUserGroupMap",
+    "columns": ["EpiGroupGroupId", "CaptureResourceGroupId"],
+    "data": []
+  },
+  {
+    "table": "AspNetUserClaims",
+    "columns": ["Id", "UserId", "ClaimType", "ClaimValue"],
+    "data": [
+      {
+        "Id": 10,
+        "UserId": "fd8a9858-0297-479e-9f42-54fa68c6f7ef",
+        "ClaimType": "HasPDFeature",
+        "ClaimValue": "TRUE"
+      }
+    ]
+  },
+  {
+    "table": "ResourceGroupUserMap",
+    "columns": ["CaptureResourceGroupId", "UserId"],
+    "data": []
+  },
+  {
+    "table": "AspNetUserLogins",
+    "columns": [
+      "LoginProvider",
+      "ProviderKey",
+      "ProviderDisplayName",
+      "UserId"
+    ],
+    "data": []
+  },
+  {
+    "table": "JobOperationMap",
+    "columns": ["JobId", "OperationId", "JobStartTime"],
+    "data": []
+  },
+  {
+    "table": "RPAUserGroups",
+    "columns": [
+      "Id",
+      "Name",
+      "ProjectId",
+      "Description",
+      "DateCreated",
+      "LastModified",
+      "IsDeleted"
+    ],
+    "data": [
+      {
+        "Id": "FDB37002-2340-4E60-B9E7-1FF843DBB457",
+        "Name": "Pre Sales",
+        "ProjectId": "27986369-03E1-4FBA-1E74-08DBA88F94F7",
+        "Description": null,
+        "IsDeleted": false
+      }
+    ]
+  },
+  {
+    "table": "AspNetUserRoles",
+    "columns": ["UserId", "RoleId"],
+    "data": [
+      {
+        "UserId": "a90a4b32-ce18-43ed-b3aa-41b1c6b2251e",
+        "RoleId": "1b839da0-4f11-4f18-9d27-c934c442cbad"
+      }
+    ]
+  },
+  {
+    "table": "Schedules",
+    "columns": [
+      "Id",
+      "Name",
+      "ProjectId",
+      "Description",
+      "ScheduleType",
+      "ScheduleInfo",
+      "CreatedDate",
+      "LastModifiedDate"
+    ],
+    "data": [
+      {
+        "Id": "BACD07ED-5F06-4071-A7BD-6456B38B0EE6",
+        "Name": "Hour",
+        "ProjectId": "27986369-03E1-4FBA-1E74-08DBA88F94F7",
+        "Description": "Hour",
+        "ScheduleType": "hour",
+        "ScheduleInfo": "{\n    \"startHour\": \"6\",\n    \"startMinute\": \"0\",\n    \"endHour\": \"23\",\n    \"endMinute\": \"59\"\n}",
+        "CreatedDate": "2023-11-23 12:34:47.612500",
+        "LastModifiedDate": "0001-01-01 00:00:00"
+      }
+    ]
+  },
+  {
+    "table": "AspNetUsers",
+    "columns": [
+      "Id",
+      "UserName",
+      "NormalizedUserName",
+      "Email",
+      "NormalizedEmail",
+      "EmailConfirmed",
+      "PasswordHash",
+      "SecurityStamp",
+      "ConcurrencyStamp",
+      "PhoneNumber",
+      "PhoneNumberConfirmed",
+      "TwoFactorEnabled",
+      "LockoutEnd",
+      "LockoutEnabled",
+      "AccessFailedCount",
+      "FirstName",
+      "LastName",
+      "DateCreated",
+      "LastModified",
+      "IsDeleted",
+      "LastPasswordChangedDate",
+      "UserId"
+    ],
+    "data": [
+      {
+        "Id": "0952748e-aedb-4821-bf6c-825ca3869f04",
+        "UserName": "Jones",
+        "NormalizedUserName": "JONES",
+        "Email": "Jones.@gmail.com",
+        "NormalizedEmail": "JONES.@GMAIL.COM",
+        "EmailConfirmed": true,
+        "PasswordHash": null,
+        "SecurityStamp": "W6DAGUBK4QZOGVCTLOHIJRYFPGG3Q643",
+        "ConcurrencyStamp": "78fc4c36-9d52-43b7-af04-4cc97dd96bb1",
+        "PhoneNumber": null,
+        "PhoneNumberConfirmed": false,
+        "TwoFactorEnabled": true,
+        "LockoutEnabled": true,
+        "AccessFailedCount": 0,
+        "FirstName": "Jones",
+        "LastName": "U",
+        "IsDeleted": false,
+        "LastPasswordChangedDate": "0001-01-01 00:00:00",
+        "UserId": "DFE3B275-187D-4BB4-9C36-08DBA88FE2A2"
+      }
+    ]
+  },
+  {
+    "table": "OperationStore",
+    "columns": [
+      "OperationId",
+      "Value",
+      "TimeStamp",
+      "ExpiresAt",
+      "SlidingExpiryMinutes",
+      "LastActionTimeStamp"
+    ],
+    "data": [
+      {
+        "OperationId": "6E8DADCB-226C-4FC9-A010-D213D68ABCC3",
+        "Value": "b{}",
+        "SlidingExpiryMinutes": 10,
+        "LastActionTimeStamp": "b'\\x00\\x00\\x00\\x00\\x00\\x00\\xa4\\x1d'"
+      }
+    ]
+  },
+  {
+    "table": "WorkflowDroppedSteps",
+    "columns": ["WorkflowId", "UniqueHashCode"],
+    "data": [
+      {
+        "WorkflowId": "ff3267a0-847c-4f68-bac3-7f755f668f80",
+        "UniqueHashCode": "7_7~R/0voNEOeReUJwB5HGdExQ=="
+      }
+    ]
+  },
+  {
+    "table": "AspNetUserTokens",
+    "columns": ["UserId", "LoginProvider", "Name", "Value"],
+    "data": []
+  },
+  {
+    "table": "OperationResultStore",
+    "columns": [
+      "OperationId",
+      "TimeStamp",
+      "ExpiresAt",
+      "SlidingExpiryMinutes",
+      "Data",
+      "LastActionTimeStamp"
+    ],
+    "data": []
+  },
+  {
+    "table": "CaptureAgentEventLogs",
+    "columns": ["EventId", "AgentId", "EventName", "EventTime", "EventSource"],
+    "data": [
+      {
+        "EventId": "35F08BD4-F30B-471F-8B85-0DC005C6FDDE",
+        "AgentId": "5EA79ED3-907D-45FE-B355-AD7C48D5741F",
+        "EventName": "stop",
+        "EventTime": "2023-08-29 13:06:55.834809",
+        "EventSource": "Schedule"
+      }
+    ]
+  },
+  {
+    "table": "CaptureAgents",
+    "columns": [
+      "AgentId",
+      "Name",
+      "Description",
+      "MachineId",
+      "UserId",
+      "LastHeartBeat",
+      "Health",
+      "CreatedDate",
+      "LastModifiedDate",
+      "AgentConnectionId",
+      "IsDeleted",
+      "CaptureState",
+      "AgentVersion",
+      "LastFileUploadDate"
+    ],
+    "data": [
+      {
+        "AgentId": "8984FDCB-9E1A-4476-9FDE-0056C09595FC",
+        "Name": "sophia_EPNCL120",
+        "Description": null,
+        "MachineId": "CF192F84-2DFF-4E8B-A8B0-44C7AFEACFC5",
+        "UserId": "15825DB3-66CD-461E-9C24-08DBA88FE2A2",
+        "LastHeartBeat": "2023-08-31 09:58:01.555716",
+        "Health": "Disconnected",
+        "CreatedDate": "2023-08-30 05:29:15.898146",
+        "LastModifiedDate": "2023-08-30 05:29:15.898146",
+        "AgentConnectionId": "",
+        "IsDeleted": false,
+        "CaptureState": "Stopped",
+        "AgentVersion": "11.2.279",
+        "LastFileUploadDate": null
+      }
+    ]
+  },
+  {
+    "table": "CaptureAgentStatusEvent",
+    "columns": [
+      "CaptureAgentId",
+      "Module",
+      "StatusEventKey",
+      "StatusEventValue",
+      "Description",
+      "UpdatedDateTime",
+      "EventId"
+    ],
+    "data": [
+      {
+        "CaptureAgentId": "5EA79ED3-907D-45FE-B355-AD7C48D5741F",
+        "Module": "RemoteCapture",
+        "StatusEventKey": "MediaVersion",
+        "StatusEventValue": "11.2.320",
+        "Description": null,
+        "UpdatedDateTime": "2023-08-29 13:07:01.831154",
+        "EventId": "D11E9991-58CF-4A51-D260-08DBA890D5C5"
+      }
+    ]
+  },
+  {
+    "table": "CaptureJobGroup",
+    "columns": ["CaptureJobId", "GroupId"],
+    "data": []
+  },
+  {
+    "table": "CaptureJobPIGroup",
+    "columns": ["CaptureJobId", "PIUserGroupId"],
+    "data": [
+      {
+        "CaptureJobId": "1DD74A43-EE49-4862-ACDC-16F07977C68E",
+        "PIUserGroupId": "9007A839-DA4C-4C70-B18A-151A8029A005"
+      }
+    ]
+  },
+  {
+    "table": "CaptureJobs",
+    "columns": [
+      "Name",
+      "Description",
+      "ProjectId",
+      "CreatedDate",
+      "LastModifiedDate",
+      "IsDeleted",
+      "CaptureJobId",
+      "JobType",
+      "IsContinuous",
+      "CapturePreferenceId"
+    ],
+    "data": [
+      {
+        "Name": "IT",
+        "Description": null,
+        "ProjectId": "27986369-03E1-4FBA-1E74-08DBA88F94F7",
+        "CreatedDate": "2023-08-30 05:32:31.105510",
+        "LastModifiedDate": "2023-09-07 13:28:07.934900",
+        "IsDeleted": false,
+        "CaptureJobId": "1DD74A43-EE49-4862-ACDC-16F07977C68E",
+        "JobType": "schedule",
+        "IsContinuous": false,
+        "CapturePreferenceId": null
+      }
+    ]
+  },
+  {
+    "table": "CaptureJobSchedules",
+    "columns": [
+      "ScheduleName",
+      "ScheduleType",
+      "ScheduleInfo",
+      "CaptureJobId",
+      "CronExpression"
+    ],
+    "data": [
+      {
+        "ScheduleName": null,
+        "ScheduleType": "basicschedule",
+        "ScheduleInfo": "{\"Basicschedule\":{\"StartDate\":\"07/09/2023\",\"EndDate\":\"07/09/2023\",\"StartHour\":\"0\",\"StartMinute\":\"0\",\"EndHour\":\"23\",\"EndMinute\":\"59\"}}",
+        "CaptureJobId": "1DD74A43-EE49-4862-ACDC-16F07977C68E",
+        "CronExpression": "0 30-30 18 6-6 9 ? 2023"
+      }
+    ]
+  },
+  {
+    "table": "CapturePreferenceGroup",
+    "columns": ["CapturePreferenceId", "GroupId"],
+    "data": []
+  },
+  {
+    "table": "CapturePreferences",
+    "columns": [
+      "CapturePreferenceId",
+      "Name",
+      "Description",
+      "Version",
+      "FileName",
+      "Preference",
+      "ProjectId",
+      "IsDeleted"
+    ],
+    "data": []
+  },
+  {
+    "table": "CaptureResourceGroupMap",
+    "columns": [
+      "CaptureResourceId",
+      "CaptureResourceGroupId",
+      "Data",
+      "Override"
+    ],
+    "data": []
+  },
+  {
+    "table": "CaptureResourceGroups",
+    "columns": [
+      "Id",
+      "Name",
+      "ProjectId",
+      "Description",
+      "IsDeleted",
+      "CreatedDate",
+      "LastModifiedDate",
+      "IncludeAll"
+    ],
+    "data": [
+      {
+        "Id": "A07D83B5-13AF-4CA8-63AC-08DBAABFF88C",
+        "Name": "res1",
+        "ProjectId": "27986369-03E1-4FBA-1E74-08DBA88F94F7",
+        "Description": null,
+        "IsDeleted": true,
+        "CreatedDate": "0001-01-01 00:00:00",
+        "LastModifiedDate": "0001-01-01 00:00:00",
+        "IncludeAll": false
+      }
+    ]
+  },
+  {
+    "table": "CaptureResources",
+    "columns": [
+      "Id",
+      "Name",
+      "FileName",
+      "Data",
+      "Description",
+      "IsDeleted",
+      "CreatedDate",
+      "LastModifiedDate",
+      "Drive",
+      "RelativePath"
+    ],
+    "data": [
+      {
+        "Id": "680EF4E9-40DD-4332-B260-3CD90514E077",
+        "Name": "Application",
+        "FileName": "Application.xml",
+        "Data": "bytes",
+        "Description": "",
+        "IsDeleted": false,
+        "CreatedDate": "2023-09-01 07:50:07.295384",
+        "LastModifiedDate": "0001-01-01 00:00:00",
+        "Drive": "p",
+        "RelativePath": "Capture"
+      }
+    ]
+  },
+  {
+    "table": "DomainTypes",
+    "columns": ["Domain", "Type"],
+    "data": [
+      {
+        "Domain": "epiplex500.com",
+        "Type": "Productive"
+      }
+    ]
+  },
+  {
+    "table": "EpiAuditTrail",
+    "columns": [
+      "Id",
+      "TimeStamp",
+      "Action",
+      "UserName",
+      "BrowserInfo",
+      "ClientIpAddress",
+      "HttpMethod",
+      "UrlAccessed",
+      "Data"
+    ],
+    "data": [
+      {
+        "Id": "0001f98f-50e3-42bb-94d4-f82f3d2b0ea1",
+        "TimeStamp": "2023-09-05 09:30:45.697000",
+        "Action": "Login Failed",
+        "UserName": "zap",
+        "BrowserInfo": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+        "ClientIpAddress": "103.47.107.106",
+        "HttpMethod": "POST",
+        "UrlAccessed": "https://epiance-app01.epiplex500.co.in:/api/account/Authenticate",
+        "Data": "{\"Application\":\"Server\",\"Error\":\"Password will be locked for 1:0:0:0 (Days:Hours:Minutes:Seconds)\"}"
+      }
+    ]
+  },
+  {
+    "table": "EpiBlockEventsConfiguration",
+    "columns": [
+      "Id",
+      "ExeName",
+      "ControlName",
+      "ControlType",
+      "EventName",
+      "ControlData",
+      "SPKey",
+      "BlockName",
+      "BlockId",
+      "Description"
+    ],
+    "data": [
+      {
+        "Id": 1,
+        "ExeName": "notepad.exe",
+        "ControlName": "Text Editor",
+        "ControlType": "editable text",
+        "EventName": "keyevent",
+        "ControlData": "O",
+        "SPKey": "Ctrl",
+        "BlockName": "FileOpen",
+        "BlockId": "CtrlShortCutOpen",
+        "Description": null
+      }
+    ]
+  },
+  {
+    "table": "EpiEventRetentionConfiguration",
+    "columns": [
+      "Id",
+      "ChannelId",
+      "ExeName",
+      "ControlType",
+      "EventName",
+      "ControlData",
+      "EventRetentionType",
+      "Description"
+    ],
+    "data": [
+      {
+        "Id": 1,
+        "ChannelId": null,
+        "ExeName": null,
+        "ControlType": null,
+        "EventName": "windowactivate",
+        "ControlData": null,
+        "EventRetentionType": "RetainNone",
+        "Description": "window activate events are not retained.. We just update container on receiving this event."
+      }
+    ]
+  },
+  {
+    "table": "EpiGPSFiles",
+    "columns": [
+      "FileID",
+      "FileName",
+      "DateTime",
+      "RelativePath",
+      "UserId",
+      "MachineName",
+      "IsProcessed",
+      "IsDeleted",
+      "IsUsed",
+      "IsSecured",
+      "GPSHeader",
+      "SourceType",
+      "CompleteStatus",
+      "ProcessTaskId",
+      "AuthorName",
+      "Benchmark"
+    ],
+    "data": [
+      {
+        "FileID": "FBACA0F7-E57E-41E4-8181-001FC546EB26",
+        "FileName": "Check2.gps",
+        "DateTime": "2023-10-04 07:04:46.625073",
+        "RelativePath": "Wednesday, October 4, 2023\\lucas",
+        "UserId": "07804766-A52C-417D-B291-08DBBDA7D22F",
+        "MachineName": "epnl120",
+        "IsProcessed": true,
+        "IsDeleted": false,
+        "IsUsed": false,
+        "IsSecured": false,
+        "GPSHeader": null,
+        "SourceType": 0,
+        "CompleteStatus": 0,
+        "ProcessTaskId": "B86A5203-A78C-4D81-83A8-B6128B153082",
+        "AuthorName": "hithesh13",
+        "Benchmark": false
+      }
+    ]
+  },
+  {
+    "table": "EpiGroupRole",
+    "columns": ["GroupId", "EpiRoleId"],
+    "data": []
+  },
+  {
+    "table": "EpiGroups",
+    "columns": [
+      "GroupId",
+      "Name",
+      "Description",
+      "DateCreated",
+      "LastModified",
+      "IsDeleted",
+      "CanModify"
+    ],
+    "data": [
+      {
+        "GroupId": "940F8601-C7C3-4C7F-CCFE-08DBA8904102",
+        "Name": "GoldStar Service Group",
+        "Description": null,
+        "IsDeleted": false,
+        "CanModify": true
+      }
+    ]
+  },
+  {
+    "table": "EpiGroupTask",
+    "columns": ["ProcessTaskId", "GroupId"],
+    "data": []
+  },
+  {
+    "table": "EpiNoiseEventConfiguration",
+    "columns": [
+      "Id",
+      "ChanelId",
+      "ExeName",
+      "ControlType",
+      "EventName",
+      "ControlData",
+      "Description"
+    ],
+    "data": [
+      {
+        "Id": 1,
+        "ChanelId": null,
+        "ExeName": null,
+        "ControlType": null,
+        "EventName": "keyevent",
+        "ControlData": "tab",
+        "Description": "Navigation Keys"
+      }
+    ]
+  },
+  {
+    "table": "EpiProjectGroup",
+    "columns": ["ProjectId", "GroupId"],
+    "data": [
+      {
+        "ProjectId": "27986369-03E1-4FBA-1E74-08DBA88F94F7",
+        "GroupId": "940F8601-C7C3-4C7F-CCFE-08DBA8904102"
+      }
+    ]
+  },
+  {
+    "table": "EpiProjects",
+    "columns": [
+      "ProjectId",
+      "Name",
+      "DateCreated",
+      "LastModified",
+      "Description",
+      "IsDeleted"
+    ],
+    "data": [
+      {
+        "ProjectId": "27986369-03E1-4FBA-1E74-08DBA88F94F7",
+        "Name": "Gold Star",
+        "Description": null,
+        "IsDeleted": false
+      }
+    ]
+  },
+  {
+    "table": "EpiProjectUser",
+    "columns": ["ProjectId", "Id", "EpiUserId"],
+    "data": [
+      {
+        "ProjectId": "27986369-03E1-4FBA-1E74-08DBA88F94F7",
+        "Id": "06B896EB-A456-4D97-9C1C-08DBA88FE2A2",
+        "EpiUserId": "06B896EB-A456-4D97-9C1C-08DBA88FE2A2"
+      }
+    ]
+  },
+  {
+    "table": "EpiUserGroup",
+    "columns": ["Id", "GroupId"],
+    "data": [
+      {
+        "Id": "06B896EB-A456-4D97-9C1C-08DBA88FE2A2",
+        "GroupId": "940F8601-C7C3-4C7F-CCFE-08DBA8904102"
+      }
+    ]
+  },
+  {
+    "table": "EpiUserPIUserGroupMap",
+    "columns": ["UserId", "PIUserGroupId"],
+    "data": [
+      {
+        "UserId": "06B896EB-A456-4D97-9C1C-08DBA88FE2A2",
+        "PIUserGroupId": "8B940EF0-2173-4BDC-840D-C33EB6F18048"
+      }
+    ]
+  }
+]

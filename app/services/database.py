@@ -17,9 +17,13 @@ def get_database_schema():
     schema = cursor.fetchall()
     conn.close()
 
+    # Organize schema as a dictionary
     schema_dict = {}
     for table, column in schema:
-        schema_dict.setdefault(table, []).append(column)
+        if table not in schema_dict:
+            schema_dict[table] = []
+        schema_dict[table].append(column)
+    # print('schema_dict===>\n', schema_dict, '\nschema_dict===>')
     return schema_dict
 
 def fetch_data(query):

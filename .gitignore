@@ -1,5 +1,8 @@
 .env
+__pycache__/
+*.pyc
 app.py
 backapp.py
 data.py
 demo.py
+impQuery.txt
